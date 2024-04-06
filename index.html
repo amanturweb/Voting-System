@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voting System App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="./images/barcelona.png" alt="" />
+            <h3>FC Barcelona</h3>
+            <button onclick="increaseCount(event)" id="vote1">Vote</button>
+            <div class="count">Vote count: <span id="result1">0</span></div>
+        </div>
+        <div class="box">
+            <img src="./images/juventus.png" alt="" />
+            <h3>Juventus FC</h3>
+            <button onclick="increaseCount(event)" id="vote2">Vote</button>
+            <div class="count">Vote count: <span id="result2">0</span></div>
+        </div>
+        <div class="box">
+            <img src="./images/manchester.png" alt="" />
+            <h3>Manchester United FC</h3>
+            <button onclick="increaseCount(event)" id="vote3">Vote</button>
+            <div class="count">Vote count: <span id="result3">0</span></div>
+        </div>
+        <input type="button" id="clear" value="Clear">
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

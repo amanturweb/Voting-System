@@ -1,2 +1,5 @@
-# Voting-System
-Simple Project where I used Dom
+# voting-system
+
+## UI output
+
+![view](./images/website.png)
